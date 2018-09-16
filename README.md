@@ -31,6 +31,7 @@ Metode:
   4. Mencatat informasi yang diberikan setelah menjalankan perintah pada ApacheBench
 
 Hasil:
+
 | Benchmark  |  500 bytes | 20 KB   |
 |---|---|---|
 |Server Software|Apache/2.4.18|Apache/2.4.18|
