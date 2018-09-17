@@ -64,5 +64,47 @@ Hasil:
 
 #### [Problem 02] Creating own event-based server
 
+Petunjuk Instalasi:
+1. Install library libevent
+```
+sudo apt-get install libevent-dev
+```
+2. Building dari makefile
+```
+make
+```
 
+Menjalankan Program
+```
+make run
+```
+
+Hasil:
+
+| Benchmark  |  500 bytes | 20 KB   |
+|---|---|---|
+|Server Software|Apache/2.4.18|Apache/2.4.18|
+|Server Hostname:Port|localhost:80|localhost:80|
+|Document Path|/500b.html|/20kb.html|
+|Document Length|500 bytes|20000 bytes|
+|Concurrency Level|10.000|10.000|
+|Time taken for test|0.532 seconds|0.715 seconds|
+|Requests per second [#/sec] (mean)|18801.09|13976.83|
+|Time per request(mean, across all concurrent requests)|0.053|0.072|
+|Transfer rate|10355.29|273858.44|
+
+
+|500b Connection Time (ms)|min|mean|median|max|
+|---|---|---|---|---|
+|Connect|87|130|129|178|
+|Processing|88|206|231|271|
+|Waiting|78|205|231|271|
+|Total|250|336|360|362|
+
+|20kb Connection Time (ms)|min|mean|median|max|
+|---|---|---|---|---|
+|Connect|10|140|139|190|
+|Processing|104|341|382|431|
+|Waiting|89|238|258|409|
+|Total|292|481|520|529|
 
