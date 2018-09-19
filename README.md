@@ -124,6 +124,7 @@ Hasil:
 |Total|292|481|520|529|
 
 *memori yang dipakai saat proses pengujian*
+
 |500b Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
 |---|---|---|---|
 |Memory (GB)|2.17|2.26|0.09|
