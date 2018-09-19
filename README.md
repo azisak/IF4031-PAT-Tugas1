@@ -66,12 +66,12 @@ Memori yang digunakan oleh apache :
 |500b Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
 |---|---|---|---|
 |Memory (GB)|1.56|1.83|0.27|
-|Task|171|309|138|
+|Penambahan Task|171|309|138|
 
 |20kb Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
 |---|---|---|---|
 |Memory (GB)|1.84|2.13|0.39|
-|Task|171|311|140|
+|Penambahan Task|171|311|140|
 
 
 
@@ -123,3 +123,13 @@ Hasil:
 |Waiting|89|238|258|409|
 |Total|292|481|520|529|
 
+*memori yang dipakai saat proses pengujian*
+|500b Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
+|---|---|---|---|
+|Memory (GB)|2.17|2.26|0.09|
+|Penambahan Task|174|175|1|
+
+|20kb Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
+|---|---|---|---|
+|Memory (GB)|2.25|2.30|0.05|
+|Penambahan Task|174|174|0|
