@@ -60,6 +60,21 @@ Hasil:
 |Waiting|1|18|8|906|
 |Total|3|25|12|1024|
 
+Memori yang digunakan oleh apache :
+*Pada pengetesan penggunaan memori kami menggunakan htop untuk mendeteksi performansi dari apache. Pengetesan dilakukan dengan cara mencatat kondisi awal dan akhir dari output yang dikeluarkan oleh htop setelah proses pengetesan dijalankan*
+
+|500b Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
+|---|---|---|---|
+|Memory (GB)|1.56|1.83|0.27|
+|Task|171|309|138|
+
+|20kb Connection Time (ms)|Kondisi Awal|Kondisi Akhir|Total|
+|---|---|---|---|
+|Memory (GB)|1.84|2.13|0.39|
+|Task|171|311|140|
+
+
+
 
 
 #### [Problem 02] Creating own event-based server
